@@ -140,10 +140,66 @@ body {
 .section-playlist_content .sec-playlist_button:hover {
     transform: scale(1.1);
   }
-    
 
-.sidebar .cookies{
-    margin: 25px 20px;
+  .section-playlist__podcast {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+  }
+  
+  .section-playlist__podcast .section__content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section__content .text {
+    padding-bottom: 14px;
+    color: #fff;
+  }
+  
+  .section__content .title {
+    font-weight: 700;
+  }
+  
+  .section__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .section__content .section__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 80%;
+    margin-top: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .sidebar .cookies {
+    padding: 16px;
+    font-size: 11px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
 }
 
 .sidebar .cookies a{
